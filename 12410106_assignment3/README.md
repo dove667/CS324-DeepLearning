@@ -1,0 +1,3 @@
+To reproduce Part1, simply run `train.py`.
+
+To reproduce Part2, run `my_gan.py` to first download MNIST dataset at ./Part 2/dataset/mnist/raw/*. So if you already have the dataset, you can move it to ./Part 2/dataset/mnist/raw/ and specify `download = False` in `my_gan.py`. `train_gan.py` then start training the GAN model. You can use CLI argument `--conv` to switch between DCGAN and the MLP-based GAN model. After training, run `demo.ipynb` to try inference and generate interpolation images.
